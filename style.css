@@ -1,0 +1,57 @@
+body {
+    color: rgb(212, 215, 214);
+    background-color: rgb(217, 234, 230);
+
+}
+@keyframes color-change {
+    0% {
+      color: rgb(115, 205, 238);
+    }
+    10% {
+      color: aqua;
+    }
+    20% {
+      color: rgb(7, 182, 182);
+    }
+    30% {
+      color: rgb(18, 222, 133);
+    }
+    40% {
+      color: rgb(123, 255, 0);
+    }
+    50% {
+      color: rgb(173, 239, 19);
+    }
+    60% {
+      color: rgb(206, 234, 23);
+    }
+    70% {
+      color: rgb(235, 250, 17);
+    }
+    80% {
+      color: rgb(230, 164, 164);
+    }
+    90% {
+      color: rgb(218, 101, 236);
+    }
+    100% {
+      color: rgb(38, 74, 217);
+    }
+    
+}
+
+h1:first-of-type {
+    color: blueviolet;
+    animation: color-change 5s infinite;
+}
+
+h1:nth-of-type(2){
+    color: rgb(242, 35, 180);
+}
+h1:last-of-type{
+    color: brown;
+}
+h2 {
+    color: rgb(102, 89, 3);
+}
+h2:hover { animation: color-change 3s infinite; }
